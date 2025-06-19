@@ -2,7 +2,7 @@
 import { fetchItems } from "@/services/fetchItems";
 import { Coffee } from "@/types/Item";
 import { useEffect, useState, useTransition } from "react";
-import CoffeeCard from "./card";
+import CoffeeCard from "./Card";
 import CoffeeGridSkeleton from "./skeleton";
 
 export default function CoffeeGridWithLoading({ filter }: { filter?: string }) {
